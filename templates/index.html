@@ -13,7 +13,8 @@
     <!-- Font Awesome if you need it
 	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 	-->
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='tailwind.min.css') }}"/>
     <!--Replace with your tailwind.css once created-->
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
@@ -81,25 +82,56 @@
 
         <div class="w-full md:w-1/2 md:pr-32 order-3 md:order-1">
             <div class="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
-                <p class="font-bold my-4 md:my-12">Notable Names</p>
+                <p class="font-bold my-4 md:my-12">Pictorial</p>
 
-                <ul class="flex flex-wrap justify-between flex-col">
-                    <li><a href="#" class="nav">Notable names on the Blue Desk</a></li>
-                </ul>
+               <!--  <ul class="flex flex-wrap justify-between flex-col">
+                    <li><a href="#" class="nav font-bold my-4 md:my-12">Pictorial</a></li>
+                </ul> -->
                 <!-- <a href="#" class="normal font-bold hover:font-bold">more...</a> -->
+
+                <img src="{{ url_for('static', filename='/img/Award.JPG') }}" style="width:100%"><br>
+
+
+<p class="mb-8">Personal experience as a student undertaking maritime education projects, a glaring learning experience shows that we are yet to incorporate maritime education into middle level schooling curricular – one of the reasons for the creation of this platform </p>
+
+                <p class="mb-8">The objective of Blue Desk is to build on interconnected elements that contribute to the success of maritime education and learning, ocean environmental sustainability, sea-people cohabitation, trade and economic considerations, collaboration between learners, governments, regulators, shipping and other stakeholders, local & international partners, the campaign for equitable and effective governance, and more. This comprehensive approach is essential to fostering a thriving and responsible ocean planet for all.</p>
+
+                <p class="mb-8">The Climate Crisis has taught us that acknowledging the protection and better management of our ocean environmental is key. The Blue Desk recognizes that the health and resilience of our oceans is vital not just for sustainable development, but for our very existence.  Africa’s youth must be involved in learning about responsible practices, conservation efforts, and sustainable resource management so that they are prepared to become able long-term stewards our oceans, rivers, and all marine ecosystems.</p>
+
+                <p class="mb-8">For purpose of integrating environmental considerations into well balanced policies and practices, the Blue Desk hopes to aid in efforts towards youth-led initiatives to minimize pollution, promote biodiversity, protect sensitive habitats, and encourage the adoption of renewable energy sources. Through these efforts, the Blue Desk strives for a harmonious balance between economic growth and environmental preservation.</p>
+
+                <p class="mb-8">Collaboration and partnerships are also key components of the Blue Desk. Recognizing that the challenges and opportunities within the Blue Economy are multifaceted, we look forward to engaging with various stakeholders.</p>
+
+                <p class="mb-8">All communities are encouraged to come together to share knowledge, drive innovation, and collectively address common challenges. Collaborative initiatives foster a spirit of cooperation, promote interdisciplinary approaches, and encourage the exchange of best practices. By leveraging the power of collaboration, we seek to unlock the full potential of our shared heritage – the Ocean, from whence all life originated</p>
+
+                
             </div>
         </div>
+
+
         <div class="w-full md:w-1/2 order-1 md:order-2">
             <div class="max-w-md leading-loose tracking-tight">
-                <h1 class="font-bold my-12">Blue Desk</h1>
+                <h1 class="font-bold my-12">Ocean Eyes</h1>
+                <h1 class="font-bold my-12">Dawati Samawati - The Blue Desk</h1>
 
-                <p class="mb-8">In the realm of the Blue Economy, where sustainable ocean resource utilization takes center stage, the concept of the "Blue Desk" emerges as a metaphorical representation of the extended sectors within the marine industry. Beyond the traditional economic activities, the Blue Desk encapsulates the educational dimension, encompassing marine- centered learning institutions, program availability, and quality, as well as environmental considerations that influence the development of marine-related industries. In this blog entry, we delve into the multifaceted aspects of the Blue Desk, exploring its significance for a thriving and responsible Blue Economy.</p>
+                <p class="mb-8">The Blue Desk has been created to inform, educate and inspire young people, students and indigenous communities across the country in Kenya, the East African Region, the African continent in the knowledge and stewardship of the Ocean and all related maritime affairs. As the old saying goes: ‘the current generation has but borrowed the earth and the oceans from the future generation’. </p>
 
-                <p class="mb-8">The Blue Desk. It represents the interconnected elements that contribute to its success, including education, environmental considerations, collaboration, effective governance, and more. This comprehensive approach is essential to fostering a thriving and responsible Blue Economy.</p>
+                <p class="mb-8">The realm of the Blue Economy, where sustainable ocean resource utilization takes center stage, the "Blue Desk" idea has been conceptualized as a platform to engage and share information – specifically with the youth in Africa and the World, of the many areas of importance encapsulated in the marine industry. Beyond traditional economic activities, the Blue Desk focusses on the educational dimension, highlighting marine-centered learning institutions, program availability, and up-coming events in Ocean affairs.</p>
 
-                <p class="mb-8">Education plays a pivotal role in equipping individuals with the knowledge and skills needed to navigate the complexities of the marine industry. Marine-centered learning institutions, specialized programs, and research centers serve as vital hubs for nurturing talent and fostering innovation. Through curriculum design, faculty expertise, practical experiences, and research opportunities, educational institutions on the Blue Desk empower individuals to become well-rounded professionals capable of addressing the challenges and opportunities of the Blue Economy.</p>
+                <p class="mb-8"> Today, environmental considerations that influence the development of marine-related industries takes center stage, as evidenced in the recently concluded Climate Action Conference hosted in Nairobi, Kenya last week. In this blog entry, we shall delve into the multifaceted aspects of this critical sector and explore its significance to help us create, protect and grow a thriving and responsible Blue Economy.</p>
 
-                <p class="mb-8">Moreover, acknowledging the critical importance of environmental considerations is key. The Blue Desk recognizes that the health and resilience of our oceans are vital for sustainable development. Emphasizing responsible practices, conservation efforts, and sustainable resource management ensures the long-term viability of marine ecosystems. By integrating environmental considerations into policies and practices, the Blue Desk aims to minimize pollution, promote biodiversity, protect sensitive habitats, and encourage the adoption of renewable energy sources. Through these efforts, the Blue Desk strives for a harmonious balance between economic growth and environmental preservation.Collaboration and partnerships are also key components of the Blue Desk. Recognizing that the challenges and opportunities within the Blue Economy are multifaceted, the Blue Desk serves as a meeting point where various stakeholders.</p>
+                <p class="mb-8">Education plays a pivotal role in equipping individuals with the knowledge and skills needed to navigate the complexities of the marine industry. Marine-centered learning institutions, specialized programs, and research centers serve as vital hubs for nurturing talent and fostering innovation.</p>
+
+                 <p class="font-bold my-4 md:my-12">Notable Advocates of Our Ocean</p>
+
+                 <img src="{{ url_for('static', filename='/img/Mba bill.jpg') }}" style="width:100%"><br>
+
+                <p class="mb-8">At Blue Desk, we are happy to report notable Champions of our Oceans and the Blue Economy. During this season, we salute men and women we are privileged to have interacted with, who work tirelessly in their respective dockets, giving us hope of a cleaner, greener/bluer, and more sustainable future. <br>
+                • <strong><em>Patrick Mwavula</em></strong><br>
+                </p>
+
+
+
 
             </div>
         </div>
@@ -120,7 +152,7 @@
             <div class="max-w-md leading-loose tracking-tight">
                 <p class="font-bold my-4 md:my-12">About Me</p>
 
-                <p class="mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <p class="mb-8">At BlueDesk, Dawati Samawati, we care about the youth as much as we do the environment and the Blue Economy. There is no more extraordinary untapped resource than the creativity and minds of our youth, filled with ideas and the desire to change the world. This youth-led mission is not to promote the Blue Economy and empower the youth through one of East Africa’s largest industries—the Blue Economy.
             </div>
         </div>
 
@@ -162,3 +194,4 @@
 </body>
 
 </html>
+
